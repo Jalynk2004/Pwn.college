@@ -1,4 +1,0 @@
-mov rax, rdi 
-mov ah, dh ; lấy 2 byte cuối từ rdi cho thanh rax
-mov bx, si ; lấy 4 byte cuối từ rsi cho thanh ghi bx
-asm -c amd64 "mov rax, rdi; mov ah, dh; mov bx, si" | ./embryoasm
